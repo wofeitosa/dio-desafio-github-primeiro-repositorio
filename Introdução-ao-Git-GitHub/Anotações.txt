@@ -1,0 +1,42 @@
+Link para download do Git: https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do Git. 
+
+ Introdução ao Git e GitHub
+Git: sistema de controle de versão local e distribuído. Permite rastrear mudanças no código, colaborar e reverter versões com segurança.
+
+GitHub: plataforma online que hospeda repositórios Git, permitindo colaboração remota, revisão de código e integração com CI/CD.
+
+🛠️ Principais Comandos do Git
+Comando	Explicação Rápida
+git init	Inicializa um repositório Git em uma pasta local.
+git clone [URL]	Clona um repositório remoto (ex: do GitHub) para sua máquina.
+git status	Mostra o estado atual dos arquivos (modificados, adicionados, etc).
+git add [arquivo]	Adiciona arquivos para serem rastreados e preparados para commit.
+git add .	Adiciona todos os arquivos modificados.
+git commit -m "mensagem"	Salva as alterações com uma mensagem descritiva.
+git log	Mostra o histórico de commits.
+git push	Envia os commits locais para o repositório remoto (GitHub).
+git pull	Atualiza seu repositório local com as mudanças do remoto.
+git branch	Lista as branches (ramificações) disponíveis.
+git checkout -b [nome]	Cria e troca para uma nova branch.
+git merge [branch]	Mescla outra branch com a atual.
+
+🌐 Fluxo Básico Git + GitHub
+git init → Cria um repositório Git local.
+
+git remote add origin [URL] → Conecta ao GitHub.
+
+git add . → Adiciona os arquivos.
+
+git commit -m "Primeiro commit" → Salva as alterações.
+
+git push -u origin main → Envia os arquivos para o GitHub (na branch main).
+
+📝 Dica bônus
+Se for a primeira vez usando Git:
+
+bash
+Copy
+Edit
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
